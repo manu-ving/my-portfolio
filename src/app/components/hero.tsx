@@ -12,17 +12,17 @@ export default function Hero() {
         {/* Headings */}
         <div>
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-2">
-            Hi, I'm{" "}
+          Hi, I&apos;m
           </h1>
           <h2 className="text-blue-400 font-bold inline-block text-3xl">
-              Manoj K Narayanan
-            </h2>
-            <p className="hidden md:block text-base sm:text-lg font-medium text-white/90 leading-relaxed mt-2">
-  A detail-driven and experienced accountant with a passion for
-  precision. I specialize in delivering accurate financial insights
-  and helping businesses streamline their operations across India and
-  the Gulf region.
-</p>
+            Manoj K Narayanan
+          </h2>
+          <p className="hidden md:block text-base sm:text-lg font-medium text-white/90 leading-relaxed mt-2">
+            A detail-driven and experienced accountant with a passion for
+            precision. I specialize in delivering accurate financial insights
+            and helping businesses streamline their operations across India and
+            the Gulf region.
+          </p>
 
         </div>
 

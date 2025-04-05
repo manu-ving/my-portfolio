@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Education() {
     return (
       <section className="max-w-6xl mx-auto px-6 py-16 text-white">
@@ -8,7 +10,7 @@ export default function Education() {
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Left Side: Education Icon or Image */}
           <div className="w-full md:w-1/3">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1627556704302-624286467c65?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Use a relevant image (graduation cap, books, etc.)
               alt="Education"
               className="rounded-xl shadow-lg object-cover w-full max-h-[300px] grayscale hover:grayscale-0 transition duration-500"

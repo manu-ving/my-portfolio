@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div
       className="relative w-full min-h-screen bg-center bg-no-repeat bg-cover flex items-center px-4 md:px-16 py-20"
-      style={{ backgroundImage: "url('/me.jpg')" }}
+      style={{ backgroundImage: "url('https://res.cloudinary.com/disfunhyq/image/upload/v1743848372/IMG_5417_Copy_Copy_lo6l1o.jpg')" }}
     >
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-transparent z-0" />

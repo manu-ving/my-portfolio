@@ -1,5 +1,4 @@
 import Footer from "./components/about-me";
-import Certification from "./components/certification";
 import Declaration from "./components/declaration";
 import Education from "./components/education";
 import Hero from "./components/hero";
@@ -16,7 +15,6 @@ export default function Home() {
      <ProffesionalProfile/>
      <WorkExperiance/>
      <Education/>
-     <Certification/>
      <SoftwareSkills/>
      <Hobbies/>
      <Declaration/> 
